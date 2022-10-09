@@ -1,0 +1,13 @@
+// Create your own map
+@import "variables";
+
+$custom-colors: (
+    "admin": $admin,
+    "admin-ts": $admin-ts,
+    "member": $member,
+    "missionbuilder": $missionbuilder,
+    "zeus": $zeus
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
