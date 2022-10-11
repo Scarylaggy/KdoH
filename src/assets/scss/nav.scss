@@ -1,0 +1,8 @@
+.nav-wrapper {
+    @extend .navbar;
+    @extend .navbar-dark;
+    @extend .justify-content-center;
+    @extend .d-flex;
+    @extend .p-3;
+    @extend .text-bg-dark
+}

@@ -1,0 +1,49 @@
+.member-card-col {
+    @extend .col-lg-4;
+    @extend .col-md-6;
+    @extend .mt-3
+}
+
+.member-card {
+    @extend .card;
+    @extend .text-bg-dark;
+    @extend .border;
+    @extend .border-primary;
+}
+
+.member-card-subtitle {
+    @extend .card-subtitle;
+    @extend .mb-2;
+    @extend .text-muted;
+}
+
+.badge-base {
+    @extend .badge;
+    @extend .rounded-pill;
+    @extend .text-dark;
+}
+
+.badge-member {
+    @extend .badge-base;
+    @extend .bg-member;
+}
+
+.badge-admin {
+    @extend .badge-base;
+    @extend .bg-admin;
+}
+
+.badge-admin-ts {
+    @extend .badge-base;
+    @extend .bg-admin-ts;
+}
+
+.badge-missionbuilder {
+    @extend .badge-base;
+    @extend .bg-missionbuilder;
+}
+
+.badge-zeus {
+    @extend .badge-base;
+    @extend .bg-zeus;
+}

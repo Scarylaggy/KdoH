@@ -17,6 +17,10 @@
 // Go here to set custom values for Bootstrap vars
 @import "./abstracts/variables";
 
+@import "./member.scss";
+@import "./nav.scss";
+@import "./global.scss";
+
 // Import Bootstrap functions, vars and mixins
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -39,13 +43,4 @@
 
 body {
     background-image: url("../img/20200321203617_1.jpg");
-}
-
-@media (max-width:1100px) {
-    .logo {
-        width: 90%;
-    }
-    .mnw > img {
-        width: 90%;
-    }
 }

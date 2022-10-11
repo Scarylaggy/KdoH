@@ -1,0 +1,7 @@
+.content-container {
+    @extend .container-xxl;
+    @extend .my-3;
+    @extend .text-bg-dark;
+    @extend .rounded-3;
+    @extend .shadow-lg;
+}
