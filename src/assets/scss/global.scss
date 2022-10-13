@@ -5,3 +5,10 @@
     @extend .rounded-3;
     @extend .shadow-lg;
 }
+
+img {
+    width: auto; 
+    height: auto; 
+    max-width: 100%;
+    background-repeat: no-repeat;
+}

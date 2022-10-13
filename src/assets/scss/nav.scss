@@ -2,7 +2,26 @@
     @extend .navbar;
     @extend .navbar-dark;
     @extend .justify-content-center;
+    @extend .justify-content-lg-start;
+    @extend .align-items-center;
     @extend .d-flex;
+    @extend .flex-wrap;
     @extend .p-3;
-    @extend .text-bg-dark
+    @extend .text-bg-dark;
+}
+
+.nav-logo-link {
+    @extend .d-flex; 
+    @extend .align-items-center; 
+    @extend .my-2; 
+    @extend .my-lg-0; 
+    @extend .me-lg-auto; 
+    @extend .text-white; 
+    @extend .text-decoration-none;
+}
+
+.nav-link-item {
+    @extend .nav-link;
+    @extend .text-primary; 
+    @extend .text-center;
 }
