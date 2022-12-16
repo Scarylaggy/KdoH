@@ -26,3 +26,20 @@
     @extend .text-primary; 
     @extend .text-center;
 }
+
+.nav-icon {
+    @extend .d-none;
+    @extend .d-md-block;
+}
+
+.nav-icon-home {
+    @extend .nav-icon;
+}
+
+.nav-icon-member {
+    @extend .nav-icon;
+}
+
+.nav-icon-entry {
+    @extend .nav-icon;
+}
