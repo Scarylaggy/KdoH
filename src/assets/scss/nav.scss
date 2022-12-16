@@ -2,7 +2,7 @@
     @extend .navbar;
     @extend .navbar-dark;
     @extend .justify-content-center;
-    @extend .justify-content-lg-start;
+    @extend .justify-content-xl-start;
     @extend .align-items-center;
     @extend .d-flex;
     @extend .flex-wrap;
@@ -12,7 +12,8 @@
 
 .nav-logo-link {
     @extend .d-flex; 
-    @extend .align-items-center; 
+    @extend .align-items-center;
+    @extend .justify-content-center;
     @extend .my-2; 
     @extend .my-lg-0; 
     @extend .me-lg-auto; 

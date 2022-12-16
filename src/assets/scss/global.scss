@@ -4,6 +4,8 @@
     @extend .text-bg-dark;
     @extend .rounded-3;
     @extend .shadow-lg;
+    @extend .text-xl-start; 
+    @extend .text-center;
 }
 
 img {
@@ -11,4 +13,10 @@ img {
     height: auto; 
     max-width: 100%;
     background-repeat: no-repeat;
+}
+
+.content-header {
+    @extend .col-xl-6;
+    @extend .col-lg-12;
+    @extend .align-items-center   
 }
